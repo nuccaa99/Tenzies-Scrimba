@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(11, 36, 52, 1);
+    padding: 40px;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    font-family: 'Karla';
+    height: 640px;
+    max-width: 1800px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice-container {
+    max-width: 450px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+
+.die-num {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5889px;
+    line-height: 70px;
+    text-align: center;
+    color: #2B283A;
+}
+
+main>p {
+    width: 450px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    font-family: 'Karla';
+    font-size: 16.384px;
+    line-height: 19px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #5035FF;
+}
+
+.true {
+    background-color: #59E391;
+}
